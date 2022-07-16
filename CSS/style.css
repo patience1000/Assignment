@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient( rgb(64, 179, 224),rgb(5, 83, 83));  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.account{
+    background-color: #ffffff;
+    height: 400px;
+    width: 350px;
+    margin-top:100px;
+   
+}
+.sign{
+    padding: 30px 65px;
+    color: green;
+}
+.form-group{
+    margin-left:50px;
+    margin-top: 20px;
+}
+.form-control{
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border-radius: 1px;
+    border: 0;
+    background-color: whitesmoke;
+}
+.Wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content:space-evenly;
+}
+
+.Wrapper button{
+    outline: none;
+    border-radius: 25px;
+    padding: 8px 35px;
+    border: 0;
+    font-size: 0.6em;
+}
+
+/* .sign-up-btn{
+    background-image: linear-gradient(teal, rgb(20, 90, 221));
+
+}
+
+.SignupButton :hover{
+    background-image: linear-gradient(rgb(1, 51, 51), rgb(20, 90, 221));
+} */

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign-up page</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="account">
+        <h1 class="sign">
+            <b>
+                Create  Account
+            </b>
+        </h1>
+
+        <div class="form-group">
+            <i class="fa-brands fa-name fa-sm"></i>
+            <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">      
+        </div>
+
+        <div class="form-group">
+            <i class="fa-brands fa-message fa-sm"></i>
+            <input class="form-control" id="email" type="email" placeholder="E-mail" required="required"     data-validation-required-message="Please enter your email address.">
+        </div>
+
+        <div class="form-group">
+            <i class="fa-brands fa-password fa-sm"></i>
+            <input class="form-control" id="phone" type="tel" placeholder="Password" required="required" data-validation-required-message="Please enter your phone number.">
+        </div>
+ 
+        <div class="Wrapper">
+            <button class="sign-up-btn" id="SignupButton" class="sim-btn hvr-bounce-to-top" type="submit">
+                SIGN UP
+            </button>
+            <button id="SignInButton" class="sim-btn hvr-bounce-to-top" type="submit">
+                SIGN IN
+            </button>
+        </div>    
+    </div>     
+                
+</body>
+</html>
