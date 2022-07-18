@@ -1,35 +1,41 @@
 body{
     display: flex;
     justify-content: center;
-    background-image:linear-gradient( rgb(64, 179, 224),rgb(5, 83, 83));  
+    align-items: center;
+    background-image:linear-gradient(rgb(64, 179, 224),rgb(10, 182, 110));  
+    height: 100vh;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .account{
     background-color: #ffffff;
-    height: 400px;
-    width: 350px;
-    margin-top:100px;
+    height: auto;
+    width: 40%;
+    padding-bottom: 30px;
    
 }
-.sign{
-    padding: 30px 65px;
+h1 {
+    margin: 46px 0;
     color: green;
+    text-align: center;
 }
 .form-group{
-    margin-left:50px;
-    margin-top: 20px;
-}
-.form-control{
-    width: 80%;
-    height: 30px;
+    margin: 20px auto;
+    width: 70%;
+    padding: 10px 10px 10px 5px;
     outline: none;
     border-radius: 1px;
+    background-color: whitesmoke;
+}
+.form-control{
+    width: 90%;
+    margin-left: 1px;
+    height: inherit;
+    outline: none;
     border: 0;
     background-color: whitesmoke;
 }
 .Wrapper{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     margin-top: 40px;
     justify-content:space-evenly;
@@ -41,13 +47,17 @@ body{
     padding: 8px 35px;
     border: 0;
     font-size: 0.6em;
+    cursor: pointer;
 }
 
-/* .sign-up-btn{
-    background-image: linear-gradient(teal, rgb(20, 90, 221));
-
+.sign-up-btn {
+    background-image: linear-gradient(to right, rgb(14, 197, 112), rgb(20, 90, 221));
+} 
+.sign-up-btn:hover {
+    background-image: none;
+    background-color: rgb(97, 97, 160);
 }
-
-.SignupButton :hover{
-    background-image: linear-gradient(rgb(1, 51, 51), rgb(20, 90, 221));
-} */
+.sign-up-btn:active {
+    background-image: none;
+    background-color: darkblue;
+} 
